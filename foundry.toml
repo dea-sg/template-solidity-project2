@@ -1,6 +1,7 @@
-[default]
+[profile.hardhat]
 src = 'contracts'
 test = 'test'
 out = 'artifacts/contracts'
+libs = ["node_modules"]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config

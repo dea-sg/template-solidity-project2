@@ -1,4 +1,4 @@
 cache/
 out/
 artifacts/
-lib/
+node_modules/

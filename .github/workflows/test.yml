@@ -22,12 +22,12 @@ jobs:
         with:
           version: nightly
 
+      - name: install library
+        run: yarn
+
       - name: Run Forge build
         run: |
           forge --version
-          forge install foundry-rs/forge-std
-          forge install openzeppelin/openzeppelin-contracts
-          forge install openzeppelin/openzeppelin-contracts-upgradeable
           forge build --sizes
         id: build
 
