@@ -1,6 +1,14 @@
 {
+	"scripts": {
+		"lint": "yarn lint:solhint:product && yarn lint:solhint:test",
+		"lint:solhint:product": "solhint --fix --max-warnings 0 \"contracts/**/*.sol\"",
+    "lint:solhint:test": "solhint --fix --max-warnings 0 \"test/**/*.sol\""
+	},
+  "devDependencies": {
+    "solhint": "3.3.7"
+  },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.7.1",
-    "@openzeppelin/contracts-upgradeable": "^4.7.1"
+    "@openzeppelin/contracts": "4.7.1",
+    "@openzeppelin/contracts-upgradeable": "4.7.1"
   }
 }

@@ -6,8 +6,7 @@ import "../contracts/ExampleToken.sol";
 
 contract ExampleTokenTest is Test {
     ExampleToken public token;
-
-    function setUp() public {
+        function setUp() public {
         token = new ExampleToken();
         token.initialize();
     }

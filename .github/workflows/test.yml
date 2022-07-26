@@ -25,6 +25,9 @@ jobs:
       - name: install library
         run: yarn
 
+      - name: lint
+        run: yarn lint
+
       - name: Run Forge build
         run: |
           forge --version
