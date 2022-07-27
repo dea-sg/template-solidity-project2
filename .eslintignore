@@ -1,0 +1,4 @@
+node_modules/
+types/
+typechain-types/
+lib/
