@@ -5,17 +5,18 @@ import "forge-std/Test.sol";
 import "../contracts/ExampleToken.sol";
 
 contract ExampleTokenTest is Test {
-    ExampleToken public token;
-        function setUp() public {
-        token = new ExampleToken();
-        token.initialize();
-    }
+	ExampleToken public token;
 
-    function testName() public {
-        assertEq(token.name(), "token");
-    }
+	function setUp() public {
+		token = new ExampleToken();
+		token.initialize();
+	}
 
-    function testSymbol() public {
-        assertEq(token.symbol(), "TOKEN");
-    }
+	function testName() public {
+		assertEq(token.name(), "token");
+	}
+
+	function testSymbol() public {
+		assertEq(token.symbol(), "TOKEN");
+	}
 }

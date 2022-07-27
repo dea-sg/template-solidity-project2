@@ -19,14 +19,22 @@ docker pull ghcr.io/foundry-rs/foundry:latest
 ```
 
 ## install library
+
 ```
 yarn
+npx husky-init && yarn
 ```
 
 ## build and test
 
 ```
-forge build
-forge test
+yarn test
 ```
 
+## deploy
+
+```
+yarn build:hardhat
+and execute deploy script file
+(npx hardhat run scripts/deploy.ts --network localhost)
+```
