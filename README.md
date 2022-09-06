@@ -18,6 +18,10 @@ cargo install --git https://github.com/foundry-rs/foundry --bins --locked
 docker pull ghcr.io/foundry-rs/foundry:latest
 ```
 
+```
+if you version up foundry, you should execute 'foundryup' command.
+```
+
 ## install library
 
 ```
