@@ -284,6 +284,11 @@
   resolved "https://registry.yarnpkg.com/@noble/secp256k1/-/secp256k1-1.6.3.tgz#7eed12d9f4404b416999d0c87686836c4c5c9b94"
   integrity sha512-T04e4iTurVy7I8Sw4+c5OSN9/RkPlo1uKxAomtxQNLq8j1uPAqnsqG1bqvY3Jv7c13gyr6dui0zmh/I3+f/JaQ==
 
+"@noble/secp256k1@1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@noble/secp256k1/-/secp256k1-1.7.1.tgz#b251c70f824ce3ca7f8dc3df08d58f005cc0507c"
+  integrity sha512-hOUk6AyBFmqVrv7k5WAw/LpszxVbj9gGN4JRkIX52fdFAj1UA61KXmZDvqVEm+pOyec3+fIeZB02LYa/pWOArw==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -2026,14 +2031,14 @@ ethereumjs-util@^7.0.3:
     ethereum-cryptography "^0.1.3"
     rlp "^2.2.4"
 
-ethers@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.0.0.tgz#c2a0622bdd5d1597f6d67d7a57327f5f7b365d99"
-  integrity sha512-3zI3VqRS6ERFoRMDIaOPTlR2CFeRYLh21OgoIEL4P5thF2xleWCM6R4ks3qdPp0qYUNzkTV4F+NbczbxxD8ybQ==
+ethers@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.0.1.tgz#6b74df86e3d4ec289825128dad0d0f95777ac80b"
+  integrity sha512-7BLEMawOwHBLR/98eUj9Dw6l9cbLC8jFxSsicPMl3GgMVO1nE7Fl+1yo8yAAyfl5nmnmQJLkbrlchMJ6Vbe/bg==
   dependencies:
     "@adraffy/ens-normalize" "1.8.9"
     "@noble/hashes" "1.1.2"
-    "@noble/secp256k1" "1.6.3"
+    "@noble/secp256k1" "1.7.1"
     aes-js "4.0.0-beta.3"
     tslib "2.4.0"
     ws "8.5.0"
