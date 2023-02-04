@@ -2031,10 +2031,10 @@ ethereumjs-util@^7.0.3:
     ethereum-cryptography "^0.1.3"
     rlp "^2.2.4"
 
-ethers@6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.0.1.tgz#6b74df86e3d4ec289825128dad0d0f95777ac80b"
-  integrity sha512-7BLEMawOwHBLR/98eUj9Dw6l9cbLC8jFxSsicPMl3GgMVO1nE7Fl+1yo8yAAyfl5nmnmQJLkbrlchMJ6Vbe/bg==
+ethers@6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ethers/-/ethers-6.0.2.tgz#e147424b3464ecca7af23e0e2f0b3b045641ccfd"
+  integrity sha512-YOHvShFjKordVEN7kVcKRp6xhpjq4ggZPcsAVuadXravZ7Z4qOflOEGfIaMnKp2ZQJqyR07iYVD6YVty4dI3Fw==
   dependencies:
     "@adraffy/ens-normalize" "1.8.9"
     "@noble/hashes" "1.1.2"
