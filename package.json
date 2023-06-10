@@ -28,7 +28,7 @@
 		"@typechain/ethers-v5": "11.0.0",
 		"@typechain/hardhat": "8.0.0",
 		"@types/dotenv": "8.2.0",
-		"@types/node": "18.16.16",
+		"@types/node": "18.16.17",
 		"del-cli": "5.0.0",
 		"dotenv": "16.1.4",
 		"ethers": "6.5.1",
