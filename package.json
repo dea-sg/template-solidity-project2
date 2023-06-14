@@ -31,7 +31,7 @@
 		"@types/node": "18.16.18",
 		"del-cli": "5.0.0",
 		"dotenv": "16.1.4",
-		"ethers": "6.5.1",
+		"ethers": "6.6.0",
 		"hardhat": "2.15.0",
 		"solhint": "3.4.1",
 		"typescript": "5.1.3",
