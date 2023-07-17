@@ -26,7 +26,7 @@
 		"@typescript-eslint/eslint-plugin": "6.0.0",
 		"@typescript-eslint/parser": "6.0.0",
 		"@typechain/ethers-v5": "11.0.0",
-		"@typechain/hardhat": "8.0.0",
+		"@typechain/hardhat": "8.0.2",
 		"@types/dotenv": "8.2.0",
 		"@types/node": "18.16.19",
 		"del-cli": "5.0.0",
