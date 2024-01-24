@@ -30,7 +30,7 @@
 		"@types/dotenv": "8.2.0",
 		"@types/node": "20.11.6",
 		"del-cli": "5.1.0",
-		"dotenv": "16.4.0",
+		"dotenv": "16.4.1",
 		"ethers": "6.10.0",
 		"hardhat": "2.19.4",
 		"solhint": "4.1.1",
