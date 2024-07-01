@@ -32,7 +32,7 @@
 		"del-cli": "5.1.0",
 		"dotenv": "16.4.5",
 		"ethers": "6.13.1",
-		"hardhat": "2.22.5",
+		"hardhat": "2.22.6",
 		"solhint": "5.0.1",
 		"typescript": "5.5.2",
 		"eslint": "8.57.0",
